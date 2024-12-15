@@ -16,3 +16,4 @@ def evaluate_cnn(model, test_loader, device):
             pred_model = model(x)
             accuracy = get_accuracy(pred_model, y)
             print(f"drop-out (0.5) accuracy: {accuracy}")
+            return accuracy
