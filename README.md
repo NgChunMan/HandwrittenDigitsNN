@@ -33,8 +33,8 @@ cd HandwrittenDigitsNN
 pip install -r requirements.txt
 ```
 
-3. Download the following dataset and place them in the `data/` directory:
-- [credit_card.csv](https://drive.google.com/file/d/1DXAtZnr-mrHccmMX6k1NRssRz2T889G3/view?usp=drivesdk)
+3. Download the following dataset and place them in the `data/MNIST/raw` directory:
+- [train-images-idx3-ubyte](https://drive.google.com/file/d/1SX7puzoeKgPRfKnys7Kmh3OeM1rWOsmw/view?usp=share_link)
 
 4. Run the main script to train the model and classify transactions:
 ```
