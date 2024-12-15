@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from src.DigitNet import DigitNet
 
-def train_model(x_train: torch.Tensor, y_train: torch.Tensor, epochs=20):
+def train_nn_model(x_train: torch.Tensor, y_train: torch.Tensor, epochs=20):
     model = DigitNet(784, 10)
     optimizer = torch.optim.Adam(model.parameters())
     loss_fn = nn.CrossEntropyLoss()
