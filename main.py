@@ -26,7 +26,7 @@ try:
     
     print("======Evaluating Neural Network Model======")
     accuracy_digit_model = evaluate_nn(digit_model, x_test, y_test)
-    print(f"Neural Network Model Accuracy: {accuracy_digit_model:.2f}%")
+    print(f"Neural Network Model Accuracy: {accuracy_digit_model:.2f}")
 except Exception as e:
     print(f"Error during Neural Network processing: {e}")
 
@@ -39,6 +39,6 @@ try:
     # Evaluate model
     print("======Evaluating Dropout Model======")
     accuracy_do_model = evaluate_cnn(do_model, test_loader, device)
-    print(f"Dropout Model Accuracy: {accuracy_do_model:.2f}%")
+    print(f"Dropout Model Accuracy: {accuracy_do_model:.2f}")
 except Exception as e:
     print(f"Error during CNN processing: {e}")
