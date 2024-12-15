@@ -1,7 +1,7 @@
 import torch
 from torchvision import datasets, transforms
 
-def load_data():
+def load_data_cnn():
     T = transforms.Compose([
         transforms.ToTensor(),
         transforms.Normalize([0.5], [0.5])
