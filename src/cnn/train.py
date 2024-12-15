@@ -2,7 +2,7 @@
 import torch
 import torch.nn as nn
 
-def train_model(loader: torch.utils.data.DataLoader, model: nn.Module, device: torch.device):
+def train_cnn_model(loader: torch.utils.data.DataLoader, model: nn.Module, device: torch.device):
     optimiser = torch.optim.Adam(model.parameters())
     loss_fn = nn.CrossEntropyLoss()
     
