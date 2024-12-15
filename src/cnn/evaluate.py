@@ -3,7 +3,7 @@ from src.utils import get_accuracy
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-def evaluate(model, test_loader):
+def evaluate(model, test_loader, device):
     """
     Evaluate model accuracy on the test dataset.
     """
