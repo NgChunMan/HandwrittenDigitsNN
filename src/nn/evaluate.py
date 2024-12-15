@@ -1,6 +1,6 @@
 from src.utils import get_accuracy
 
-def evaluate(model, x_test, y_test):
+def evaluate_nn(model, x_test, y_test):
     """
     Return a number in range [0, 1].
     0 means 0% accuracy while 1 means 100% accuracy.
