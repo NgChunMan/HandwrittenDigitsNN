@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from src.DigitNet import DigitNet
+from src.nn.model import DigitNet
 
 def train_nn_model(x_train: torch.Tensor, y_train: torch.Tensor, epochs=20):
     model = DigitNet(784, 10)
