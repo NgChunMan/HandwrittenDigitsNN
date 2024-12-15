@@ -1,6 +1,6 @@
 from torchvision import datasets
 
-def load_data():
+def load_data_nn():
     # This downloads the MNIST datasets ~63MB
     mnist_train = datasets.MNIST("./data", train=True, download=True)
     mnist_test  = datasets.MNIST("./data", train=False, download=True)
