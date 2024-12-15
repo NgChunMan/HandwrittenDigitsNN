@@ -7,7 +7,7 @@ This project implements classification of handwritten digits (0-9) from the MNIS
 
 The aim is to compare the performance of these models and demonstrate the use of dropout to enhance generalization in CNNs.
 
-##Features
+## Features
 - Dataset:
   - The project uses the classic MNIST Handwritten Digits dataset.
 - Neural Network (NN):
