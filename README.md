@@ -50,7 +50,7 @@ python main.py
 ```
 
 ## Testing
-Unit tests are provided to validate the implementation. Run the tests using pytest:
+Unit tests are provided to validate the implementation. Run the tests by using the commands below:
 ```
 python -m tests.test_nn_evaluate
 python -m tests.test_nn_model
