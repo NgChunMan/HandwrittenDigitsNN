@@ -78,5 +78,5 @@ python -m tests.test_nn_train
   Epoch: 8, Loss: 0.058425070927973756
   Epoch: 9, Loss: 0.05647834554076829
   ```
-- Accuracy (with drooout probability=0.5): 99.1%
+- Accuracy (with dropout probability=0.5): 99.1%
 - The CNN model with dropout achieves a significantly higher accuracy of 99.1%. This demonstrates its superior ability to generalize by effectively leveraging spatial features and regularization.
